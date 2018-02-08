@@ -55,7 +55,7 @@ function removeFromCart(item) {
   // write your code here
   for(i=0; i<cart.length; i++){
     if(Object.keys(cart[i])==item){
-      cart = [...cart.slice(0,i), ...cart.slice(1,i)];
+      cart = [...cart.slice(0,i), ...cart.slice(1+i)];
       return cart;
     }
   }
