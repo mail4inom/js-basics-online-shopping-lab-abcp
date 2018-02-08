@@ -30,7 +30,7 @@ function viewCart() {
     for(var i=0; i<cart.length; i++){
       var text;
       if(i === cart.length -2){
-        text = ", and";
+        text = ", and ";
       }else if(i === cart.length -1){
         text = "";
       }else{
